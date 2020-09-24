@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Demo 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="demo2.css">
+
 </head>
 
 <body>
+        <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+
+        <section id="kalatori">
     <ul>
         <li><a href="#kalatori">Kalatori</a></li>
         <li><a href="#markkinat">Markkinat</a></li>
@@ -13,9 +19,6 @@
         <li><a href="#yhteys">Ota yhteyttä</a></li>
         <li><a href="#sijainti">Sijainti</a></li>
     </ul>
-    
-    
-    
     
     
     
@@ -27,7 +30,8 @@
     Se sijaitsee ihanteellisessa paikassa aivan vanhan Pirkkalankylän  keskustassa. 
     Torilla pidetään <mark>markkinapäiviä</mark> ja olemme saaneet torille vakituisen asiakaskunnan.
     Julkinen liikenne suosii toria, sijainti on nimen mukaisesti kalasataman vieressä ja linja-autopysäkki on 50 metrin päässä.</p>
-
+    </section>
+    <section id="markkinat">
     <a name="markkinat"><h3>Vuoden 2020 markkinat</h3></a>
     <ul>
 
@@ -41,16 +45,16 @@
     <img src="./kuvat/mustekala.jpg" alt="mustekala">
     <img src="./kuvat/pienikala.jpg" alt="pienikala">
     <img src="./kuvat/rapu.jpg" alt="rapu">
+    </section>
 
 
 
-
-
+    <section id="hinnasto">
     <a name="hinnasto"><h3>Hinnasto</h3></a>
     <img src="./kuvat/tori.jpg" alt="toria"><br>
+    </section>
 
-
-
+    <section id="yhteys">
     <a name="yhteys"><h3>Ota yhteyttä</h3></a>
 
     <form action="http://www.leeniemi.net/sasp20/lomakedemo4.php" method="post">
@@ -76,6 +80,10 @@
     <br>
     <br>
     <br>
+    </section>
+   
+   
+   <section id="sijainti">
     <a name="sijainti"><h3>Sijainti</h3></a><br>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906.6422720834605!2d23.553976816221226!3d61.45316514598496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ed9fa83d6429f%3A0xb142d41e406c097d!2sKierikantie%2018%2C%2033980%20Pirkkala!5e0!3m2!1sfi!2sfi!4v1598336769136!5m2!1sfi!2sfi" width="500" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -160,8 +168,37 @@
     
     
         </table>
+    
+
+     
+        <p>Talha Bas &copy;</p>
+    </section>
 
 
-<p>Talha Bas &copy;</p>
+    
+
+
+    <script>
+            //Get the button
+            var mybutton = document.getElementById("top");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
 </body>
 </html>
