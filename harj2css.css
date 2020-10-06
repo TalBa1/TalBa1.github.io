@@ -1,0 +1,78 @@
+html
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS",Verdana, sans-serif;
+    font-size: 1.1em;
+    background: #d9dbda;
+
+}
+
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+#kuvat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#lounaslista {
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+#aukiooloajat {
+    text-align: center;
+    list-style-type:square;
+    color:#10ab5d;
+}
+
+
+#yhteystiedot {
+    text-align: center;
+}
+
+
+ul.navi {
+width: fit-content;
+list-style-type: none;
+margin: 0 auto;
+padding:0;
+overflow: hidden;
+background-color: none;
+height: 40px;
+}
+
+li.navi {
+    float: left;
+}
+
+li.navi {
+float: left;
+}
+
+li.navi a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.navi a:hover:not(.active) {
+background-color: none;
+}
