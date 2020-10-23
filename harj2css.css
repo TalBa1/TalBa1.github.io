@@ -24,11 +24,17 @@ h1 {
 
 }
 
+#container {
+    text-align: center;  
+    width: 80%;
+    margin: 0 auto;
 
+}
 
 #lounaslista {
-    text-align: center;
-
+    text-align: left;  
+    width: 30%;
+    margin: 0 auto;
 }
 
 h3 {
@@ -38,9 +44,11 @@ h3 {
 #aukiooloajat {
     text-align: center;
     list-style-type:square;
-    color:#10ab5d;
 }
 
+#pöytävarauslomake {
+    text-align: center;
+}
 
 #yhteystiedot {
     text-align: center;
