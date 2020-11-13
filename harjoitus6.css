@@ -20,6 +20,7 @@ header {
  
 main {
     background: darkslateblue;
+    height: 100vh;
  
 }
  
@@ -35,6 +36,7 @@ footer {
  
 #bruh {
     background: forestgreen;
+    display: none;
  
 }
  
@@ -50,6 +52,9 @@ footer {
 img{
     width: 100%;
     height: 100%;
+}
+#footer {
+    display: none;
 }
 
 
@@ -77,10 +82,18 @@ img{
     main {
         flex: 2;
         order: 2;
-        min-height: 80vh;
+        height: 100vh;
  
     }
 
+
+    #footer{
+        display: block;
+    }
+
+    #bruh {
+        display: block;
+    }
  
     .left-sidebar {
         order: 1;
