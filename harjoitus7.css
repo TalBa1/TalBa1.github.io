@@ -1,9 +1,9 @@
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+margin: 0;
 }
 
 header {
@@ -16,7 +16,32 @@ display: flex;
 grid-area: header;
 justify-content: flex-end;
 }
- 
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+li {
+display: inline;
+padding: 25px;
+color: wheat;
+font-family:'Segoe UI', sans-serif;
+}
+
+li {
+float: left;
+}
+
+li a {
+color: wheat;
+}
+
+
 #sininenbox{
 width: 100%;
 height: 100%;
@@ -43,8 +68,8 @@ font-family:'Segoe UI', sans-serif;
 }
 
 #otsikko1{
-    font-family:'Segoe UI', sans-serif;
-    font-weight: 400;
+font-family:'Segoe UI', sans-serif;
+font-weight: 400;
 }
 
 #tekstiboxmuttasininen {
@@ -62,15 +87,13 @@ position: absolute;
 top: 100px;
 left: 100px;
 z-index: 3;
-    
-}
-    
-section {
-    position: relative;
-    background-image:url("./kuvat/book-4.jpg");
+
 }
 
-    
+section {
+position: relative;
+background-image:url("./kuvat/book-4.jpg");
+}
 
 
 
