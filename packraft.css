@@ -1,0 +1,164 @@
+
+header {
+position: absolute;
+width: 100%;
+height: 80px;
+left: 0px;
+top: 0px;
+background: grey;
+z-index: 1;
+}
+
+#harmaa-alue {
+position: absolute;
+width: 100%;
+height: 1150px;
+left: 0px;
+top: 150px;
+background: grey;
+z-index: 1;
+}
+#logo {
+position: absolute;
+width: 165px;
+height: 165px;
+left: 125px;
+top: 270px;
+z-index: 4;
+background: url(./kuvat/logo1.png);
+}
+
+#otsikko1 {
+position: absolute;
+width: 100%;
+height: 15%;
+right: 110;
+top: 150px;
+z-index: 2;
+color: #000000;
+text-align: center;
+font-family: sans-serif;
+font-size: 40px;
+}
+
+#tekstibox1{
+position: absolute;
+width: 1050px;
+height: 100px;
+left: 325px;
+top: 250px;
+z-index: 2;
+color: #000000;
+
+font-family: Suez One;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+}
+
+#tekstibox2{
+position: absolute;
+width: 240px;
+height: 100px;
+left: 1365px;
+top: 490px;
+z-index: 2;
+color: #000000;
+
+font-family: Suez One;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+}
+
+#kuva {
+position: absolute;
+width: 1000px;
+height: 730px;
+left: 325px;
+top: 490px;
+z-index: 3;
+background: url(./kuvat/Taitokisakuvat-13.jpg);
+border-radius: 18px;
+}
+/****************************************************************************** MAIN JA HEADER ******/
+#sosis {
+position: absolute;
+width: 455px;
+height: 190px;
+left: 39%;
+top: 1500px;
+z-index: 5;
+background: grey;
+border-radius: 172.5px;
+}
+
+#tekstibox3{
+position: absolute;
+width: 455px;
+height: 190px;
+left: 39%;
+top: 1500px;
+color: black;
+z-index: 5;
+text-align: center;
+font-size: 60px;
+}
+
+
+#kuva13 {  
+position: absolute;
+width: 940px;
+height: 667;
+left: 0px;
+top: 1800px;
+
+background: url(./kuvat/Taitokisakuvat-3.jpg);
+border-radius: 137px;
+}
+
+#kuva12 {
+position: absolute;
+width: 950px;
+height: 667px;
+right: 0px;
+top: 1800px;
+
+background: url(./kuvat/Taitokisakuvat-12.jpg);
+border-radius: 137px;
+}
+
+#kuva14 {
+position: absolute;
+width: 1000px;
+height: 667px;
+left: 24%;
+top: 2480px;
+
+background: url(./kuvat/Taitokisakuvat-4.jpg);
+border-radius: 27px;
+}
+
+#kuvat4{
+position: absolute;
+width: 1000px;
+height: 750px;
+left: 0%;
+top: 3160px;
+
+background: url(./kuvat/Taitokisakuvat-14.jpg);
+border-radius: 27px;
+}
+
+#kuvat15{
+position: absolute;
+width: 886px;
+height: 750px;
+right: 0%;
+top: 3160px;
+background: url(./kuvat/Taitokisakuvat-15.jpg);
+border-radius: 27px;
+}
+/****************************************************************************** KUVAGALLERIA ******/
