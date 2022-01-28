@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fanikauppa/static/css/main.b6c2d5f0.chunk.css",
+    "main.css": "/fanikauppa/static/css/main.d0a88a5f.chunk.css",
     "main.js": "/fanikauppa/static/js/main.e4bae505.chunk.js",
     "main.js.map": "/fanikauppa/static/js/main.e4bae505.chunk.js.map",
     "runtime-main.js": "/fanikauppa/static/js/runtime-main.3850aa51.js",
@@ -12,7 +12,7 @@
     "static/js/3.2f21ccdd.chunk.js.map": "/fanikauppa/static/js/3.2f21ccdd.chunk.js.map",
     "index.html": "/fanikauppa/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/fanikauppa/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.b6c2d5f0.chunk.css.map": "/fanikauppa/static/css/main.b6c2d5f0.chunk.css.map",
+    "static/css/main.d0a88a5f.chunk.css.map": "/fanikauppa/static/css/main.d0a88a5f.chunk.css.map",
     "static/js/2.9cb88c14.chunk.js.LICENSE.txt": "/fanikauppa/static/js/2.9cb88c14.chunk.js.LICENSE.txt",
     "static/media/farkut.8e858043.jpg": "/fanikauppa/static/media/farkut.8e858043.jpg",
     "static/media/hoodie.1e91d992.jpg": "/fanikauppa/static/media/hoodie.1e91d992.jpg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.3850aa51.js",
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.9cb88c14.chunk.js",
-    "static/css/main.b6c2d5f0.chunk.css",
+    "static/css/main.d0a88a5f.chunk.css",
     "static/js/main.e4bae505.chunk.js"
   ]
 }
